@@ -1,0 +1,13 @@
+includes/connection.php
+includes/mail-secrets.php
+dbmy.php
+dbpg.php
+phpmailer-demo.php
+gateway-response-handler.php
+storage/
+videos/Director_Speech.mp4
+.env
+.env.*
+*.log
+Thumbs.db
+.DS_Store

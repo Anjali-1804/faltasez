@@ -1,0 +1,33 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^(serologykolkata.nic.in)$ [NC]
+RewriteCond %{HTTP:X-Forwarded-Host} !^$ [NC]
+RewriteCond %{HTTP:X-Forwarded-Host} !^(serologykolkata.nic.in)$ [NC]
+RewriteRule .* - [F]
+
+RewriteCond %{HTTP_HOST} ^164.100.199.130$
+RewriteRule ^(.*)$ [F]
+
+164.100.199.130
+serologykolkata.nic.in
+
+
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+
+<VirtualHost *:80>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+
+</VirtualHost>
+
+
+SSLProtocol -all  +TLSv1.2
+SSLCipherSuite ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:DHE-RSA-CHACHA20-POLY1305:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:!RC4:!LOW:!MD5:!aNULL:!eNULL:!3DES:!EXP:!PSK:!SRP:!DSS:!CBC
+

@@ -1,0 +1,105 @@
+<?php
+/**
+ * Single source of truth for the site structure.
+ *
+ * Used by sitemap.php (the HTML sitemap visitors read) and by
+ * tools/build-sitemap-xml.php (which regenerates sitemap.xml for search
+ * engines). Add a page in one place and both stay in step.
+ */
+return array(
+    "About" => array(
+        array("FSEZ at a Glance", "fsez-at-a-glance.php"),
+        array("About Falta SEZ", "about-fsez.php"),
+        array("About Manikanchan SEZ", "about-manikanchan.php"),
+        array("Jurisdiction", "jurisdiction.php"),
+        array("Performance", "past-performance.php"),
+        array("Export Performance", "export-performances.php"),
+        array("Achievements", "acheivements.php"),
+        array("Organisational Structure", "organisation-structure.php"),
+        array("How to Reach Falta SEZ", "how-to-reach.php"),
+        array("How to Set up a SEZ", "how-to-setup.php"),
+        array("How to Set up a Unit in SEZ", "procedure-to-set-up-a-unit.php"),
+        array("Citizens Charter", "citizens-charter.php"),
+    ),
+    "Authority" => array(
+        array("Constitution", "falta-sez-authority.php"),
+        array("Infrastructure", "infra.php"),
+        array("Authority Meeting Agenda", "authority-meeting-agenda.php"),
+        array("Authority Meeting Minutes", "authority-meeting-minutes.php"),
+        array("Unit Rent Status", "unit-rent-receipt.php"),
+        array("Annual Report", "annual-report.php"),
+        array("Electricity Duty Exemption", "electricity-duty-exemption.php"),
+        array("Subsidy Programme", "subsidy-program.php"),
+    ),
+    "Unit Approval Committee" => array(
+        array("UAC Meeting Agenda", "uac-meeting-agenda.php"),
+        array("UAC Meeting Minutes", "uac-meeting-minutes.php"),
+        array("EOU Meeting Agenda", "eou-meeting-agenda.php"),
+        array("EOU Meeting Minutes", "eou-meeting-minutes.php"),
+        array("EOU Details", "eou-details.php"),
+    ),
+    "Department of Commerce" => array(
+        array("BOA Meeting Agenda", "boa-meeting-agenda.php"),
+        array("BOA Meeting Minutes", "boa-meeting-minutes.php"),
+        array("Instructions", "doc-instructions.php"),
+        array("Rules and Amendments", "sez-rules-and-amendments.php"),
+        array("SEZ Rules", "sez-rules.php"),
+        array("SEZ Rules and Acts", "sez-rules-and-acts.php"),
+        array("Policy Matters", "policy-matters.php"),
+        array("Action under PP Act", "action-under-pp-act.php"),
+    ),
+    "Forms and documents" => array(
+        array("SEZ Forms", "sez-forms.php"),
+        array("EOU Forms", "eou-forms.php"),
+        array("Download Forms", "download-forms.php"),
+        array("Forms and Notices", "forms-and-notices.php"),
+        array("Proforma", "proforma.php"),
+        array("Handbook", "handbook.php"),
+        array("Circulars and Policies", "circulars-and-policies.php"),
+        array("Archive", "archieve.php?type=circular"),
+    ),
+    "Notices and opportunities" => array(
+        array("Public Notice", "public-notice.php"),
+        array("Tenders", "tenders.php"),
+        array("Vacancies", "vacancy.php"),
+    ),
+    "Transparency" => array(
+        array("Right to Information: Point of Contact", "right-to-information.php"),
+        array("RTI Transparency Audit", "rti-transparency-audit.php"),
+        array("Public Grievance (CPGRAMS)", "public-grievance.php"),
+        array("Vigilance", "vigilance.php"),
+    ),
+    "Media" => array(
+        array("Interview", "interview.php"),
+        array("Photo Gallery", "photo-gallery-mod.php"),
+        array("Video Gallery", "video-galley.php"),
+    ),
+    "Other information" => array(
+        array("Other SEZs", "other-sez.php"),
+        array("Other SEZs under Falta", "other-sez-under-falta.php"),
+        array("Other Links and Policies", "other-policies.php"),
+        array("Other Links", "other-links.php"),
+        array("Unit Registration", "unit-registration.php"),
+        array("Unit Onboarding", "unit-onboarding.php"),
+    ),
+    "Help and policies" => array(
+        array("Contact Us", "contact.php"),
+        array("Feedback", "feedback.php"),
+        array("Help", "help.php"),
+        array("Frequently Asked Questions", "faq.php"),
+        array("Search", "search.php"),
+        array("Accessibility Statement", "accessibility-statement.php"),
+        array("Screen Reader Access", "screen-reader.php"),
+        array("Disclaimer", "disclaimer.php"),
+        array("Privacy Policy", "privacy-policy.php"),
+        array("Terms and Conditions", "terms-condition.php"),
+        array("Copyright Policy", "copyright-policy.php"),
+        array("Hyperlinking Policy", "hyper-linking-policy.php"),
+        array("Security Policy", "security-policy.php"),
+        array("Content Moderation Policy", "content-moderation-policy.php"),
+        array("Content Archival Policy", "content-archival-policy.php"),
+        array("Content Review Policy", "content-review-policy.php"),
+        array("Website Monitoring Plan", "website-monitoring-plan.php"),
+        array("Contingency Management Plan", "contingency-management-plan.php"),
+    ),
+);
