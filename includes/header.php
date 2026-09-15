@@ -3,7 +3,7 @@ $fb = fsez_ext_url(isset($gbl_row["fb_link"]) ? $gbl_row["fb_link"] : "");
 $tw = fsez_ext_url(isset($gbl_row["tw_link"]) ? $gbl_row["tw_link"] : "");
 ?>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-<link href="css/gigw.css?v=37" rel="stylesheet">
+<link href="css/gigw.css?v=38" rel="stylesheet">
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <header id="header" class="header-style-three" role="banner">
    <div class="gigw-welcome">

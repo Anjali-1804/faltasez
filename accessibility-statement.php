@@ -77,7 +77,7 @@ include("application-top.php");
                     <p>If you are not satisfied with our response, you may raise the matter through <a href="public-grievance.php">public grievance redressal</a>.</p>
 
                     <h2>How this website was assessed</h2>
-                    <p>Accessibility of this website is checked by a combination of automated testing and manual review, including keyboard-only navigation, screen reader testing and colour contrast measurement against the WCAG 2.1 Level AA thresholds. Measured pairs include coffee header on white (13.6:1), body text on the page background (14.1:1), muted text on white (8.8:1) and bronze text or buttons at <span class="notranslate">#7a4e2e</span> on white (7.1:1). Pages are set to print on A4 without the menu, ticker or map. Statement last reviewed on <?php echo fsez_last_updated_html(); ?>.</p>
+                    <p>Accessibility of this website is checked by a combination of automated testing and manual review, including keyboard-only navigation, screen reader testing and colour contrast measurement against the WCAG 2.1 Level AA thresholds. Measured pairs include navy on white (10.5:1), body text on the page background (15.5:1), muted text on white (8.9:1) and orange text or buttons at <span class="notranslate">#c44a1b</span> on white (4.8:1). Pages are set to print on A4 without the menu, ticker or map. Statement last reviewed on <?php echo fsez_last_updated_html(); ?>.</p>
                 </div>
             </div>
         </section>

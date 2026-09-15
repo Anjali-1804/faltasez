@@ -8,7 +8,7 @@
    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/gigw.css?v=37">
+   <link rel="stylesheet" href="css/gigw.css?v=38">
 </head>
 <body>
    <a class="skip-link" href="#error-text">Skip to main content</a>

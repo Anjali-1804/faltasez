@@ -3,16 +3,16 @@
 :root {
   --gigw-saffron: #ff9933;
   --gigw-green: #138808;
-  --gigw-navy: #3f2a20;
-  --gigw-navy-dark: #2a1c14;
-  --gigw-orange: #7a4e2e;
-  --gigw-orange-dark: #5c3a22;
-  --gigw-gold: #f2d6b3;
-  --gigw-ink: #2a1c14;
-  --gigw-muted: #5c4638;
-  --gigw-page: #f6eee2;
-  --gigw-panel: #faf4ea;
-  --focus: #7a4e2e;
+  --gigw-navy: #123e7c;
+  --gigw-navy-dark: #082844;
+  --gigw-orange: #c44a1b;
+  --gigw-orange-dark: #9a3815;
+  --gigw-gold: #ffd28a;
+  --gigw-ink: #1a2a3a;
+  --gigw-muted: #4a5d73;
+  --gigw-page: #eef2f6;
+  --gigw-panel: #ffffff;
+  --focus: #c44a1b;
 }
 
 html {
@@ -94,11 +94,11 @@ textarea:focus,
 }
 
 .gigw-utility {
-  background: #f3e6d4;
+  background: #f4f6f8;
   color: #1a1a1a;
   font-size: 13px;
   line-height: 1.5;
-  border-bottom: 1px solid #e4d0b8;
+  border-bottom: 1px solid #c5ced8;
 }
 .gigw-utility .container {
   display: flex;
@@ -158,8 +158,8 @@ textarea:focus,
   display: inline-flex;
   align-items: center;
   gap: 2px;
-  border-left: 1px solid #d4c0a8;
-  border-right: 1px solid #d4c0a8;
+  border-left: 1px solid #c5ced8;
+  border-right: 1px solid #c5ced8;
   padding: 0 8px;
 }
 .gigw-font-group button {
@@ -170,7 +170,7 @@ textarea:focus,
 .gigw-font-group .gigw-a-plus { font-size: 16px; }
 .gigw-font-group button.is-active {
   outline: 2px solid var(--gigw-navy);
-  background: #f3e6d4;
+  background: #e8eef4;
 }
 .gigw-lang {
   display: inline-flex;
@@ -214,7 +214,7 @@ textarea:focus,
 .header-style-three .lower-topbar {
   background: var(--gigw-panel);
   padding: 12px 0;
-  border-bottom: 1px solid #e4d0b8;
+  border-bottom: 1px solid #c5ced8;
 }
 .gigw-identity {
   display: flex;
@@ -364,8 +364,8 @@ header #navbar li.sub-menu > ul {
 
 .gigw-ticker {
   background: var(--gigw-panel);
-  border-top: 1px solid #e4d0b8;
-  border-bottom: 1px solid #e4d0b8;
+  border-top: 1px solid #c5ced8;
+  border-bottom: 1px solid #c5ced8;
   padding: 8px 0;
 }
 .gigw-ticker-inner {
@@ -767,7 +767,7 @@ body .page-wrapper.gov-home {
   padding: 14px 8px;
   text-decoration: none;
   color: var(--gigw-ink);
-  border: 1px solid #e4d0b8;
+  border: 1px solid #c5ced8;
   min-height: 110px;
 }
 .fsez-div-card:hover,
@@ -775,7 +775,7 @@ body .page-wrapper.gov-home {
   border-color: var(--gigw-orange);
   color: var(--gigw-navy);
   text-decoration: none;
-  background: #f3e6d4;
+  background: #f4f6f8;
 }
 .fsez-div-card i {
   width: 48px;
